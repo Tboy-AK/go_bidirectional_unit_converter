@@ -89,14 +89,14 @@ func (cvr Converter) PoundsToKilogram(c Pounds) Kilogram {
 }
 
 func main() {
-	fmt.Println(Converter.FeetToCentimeter())
-	fmt.Println(Converter.CentimeterToFeet())
-	fmt.Println(Converter.MinutesToSeconds())
-	fmt.Println(Converter.SecondsToMinutes())
-	fmt.Println(Converter.CelsiusToFarenheit())
-	fmt.Println(Converter.FarenheitToCelsius())
-	fmt.Println(Converter.RadianToDegree())
-	fmt.Println(Converter.DegreeToRadian())
-	fmt.Println(Converter.KilogramToPounds())
-	fmt.Println(Converter.PoundsToKilogram())
+	fmt.Println(Converter.FeetToCentimeter(10))
+	fmt.Println(Converter.CentimeterToFeet(10))
+	fmt.Println(Converter.MinutesToSeconds(10))
+	fmt.Println(Converter.SecondsToMinutes(10))
+	fmt.Println(Converter.CelsiusToFarenheit(10))
+	fmt.Println(Converter.FarenheitToCelsius(10))
+	fmt.Println(Converter.RadianToDegree(10))
+	fmt.Println(Converter.DegreeToRadian(10))
+	fmt.Println(Converter.KilogramToPounds(10))
+	fmt.Println(Converter.PoundsToKilogram(10))
 }
